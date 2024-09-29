@@ -1,4 +1,3 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
@@ -24,7 +23,16 @@
     <p align="left"><a name="scals"><font size="4"></font></a><font size="4">Formula for Scales</font></p>
     <p align="left">The formula must be entered in the form xxxxxx where x representents the steps(in semitones) of the scale. For example, a major scale is 2212221 i.e. 2 whole steps, a half step, three whole steps and another halfstep. You can also put a number before a step to denote a larger step than normal. For example, 3223 gives a pentatonic minor scale i.e. a 1 and a half step, 2 whole steps and another 1 and a half step. The largest number you can use is 9 and you are allowed to enter up to 12 steps in total. You can change the note the scale starts on by selecting the note in box titled <b>Root:</b>.</p>
 
-    <p align=center><a href="javascript:self.close()"><font size="5">Close</font></a></p>
+    <button onclick="closeWin()">Close "myWindow"</button>
+
+<script>
+let myWindow;
+
+function closeWin() {
+  myWindow.close();
+}
+</script>  
+
   </body>
 
 </html>
